@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+
+section#conteudo{
+    width: 1200px;
+    text-align: center;
+}
+
+iframe#frame-spec{
+    width: 415px;
+    height: 330px;
+    border: none;
+    overflow: hidden;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+iframe#frame-spec::-webkit-scrollbar{
+    display: none;
+}

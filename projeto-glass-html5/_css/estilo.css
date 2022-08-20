@@ -1,0 +1,206 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(200,200,200);
+    color: rgba(0,0,0,1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#interface{
+    background-color: white;
+    margin-block: -10px;
+    margin-inline: auto;
+    padding: 20px;
+    width: 1200px;
+    box-shadow: 2px 2px 10px black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header#cabecalho{
+    height: 150px;
+    border-bottom: 1px solid black;
+    margin-top: -20px;
+    background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 90px;
+}
+
+#cabecalho h1{
+    margin-bottom: -10px;
+    color: rgb(60,60,60);
+    font-family: montserrat;
+}
+#cabecalho h2{
+    font-family: Roboto;
+    color: rgb(100,100,100);
+}
+
+nav ul {
+    position: absolute;
+    right: 70px;
+    top: -16px;
+}
+nav li {
+    font-size: 18px;
+    display: inline-block;
+    background-color: rgb(200,200,200);
+    padding: 4px 7px;
+    transition: 0.5s;
+    vertical-align: top;
+}
+nav li:hover{
+    padding-block: 7.5px;
+    color: white;
+    background-color: rgb(60,60,60);
+}
+
+header#cabecalho img#icone{
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    z-index: 1;
+}
+
+div#corpo-dividido{
+    position: relative;
+}
+section p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 50px;
+    margin-bottom: 20px;
+}
+
+#breadcrumbs h1{
+    margin-bottom: -10px;
+    color: rgb(60,60,60);
+    font-family: montserrat;
+    background-color: none;
+}
+#breadcrumbs h2{
+    font-size: 20px;
+    opacity: 0.25;
+}
+#breadcrumbs h3{
+    opacity: 0.75;
+    text-decoration: italic;
+    font-size: 15px;
+    text-align: right;
+}
+#notbreadcrumbs h1 {
+    color: rgb(60,60,60);
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(210,210,210);
+    padding: 5px;
+}
+
+
+section#esquerda{
+    width: 700px;
+    border-right: 1px solid black;
+    display: block;
+    float: left;
+}
+#breadcrumbs{
+    padding-inline: 15px;
+}
+#notbreadcrumbs{
+    padding-inline: 25px;
+}
+
+figure#foto-legenda{
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+    position: relative;
+}
+figure#foto-legenda img{
+    width: 100%;
+}
+
+figure#foto-legenda figcaption{
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,0.4);
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: 1s;
+}
+figure#foto-legenda:hover figcaption{
+    opacity: 1;
+}
+
+#tabela{
+    position: relative;
+    margin-block: 5px;
+    margin-inline: auto;
+    border: 1px solid rgb(100,100,100);
+        border-spacing: 0px;
+}
+#tabela h2 {
+    margin-block: 0px;
+    color: rgb(100,100,100);
+    font-size: 20px;
+}
+#tabela p {
+    margin: 0px;
+    font-size: 10px;
+    float: right;
+}
+#tabela td{
+    border: 1px solid rgb(100,100,100);
+    padding: 10px;
+}
+#tabela td.right{
+    background-color: rgb(200,200,200);
+}
+table#tabela td.left{
+    color: white;
+    font-weight: bold;
+    vertical-align: top;
+    text-align: right;
+    background: rgb(100,100,100);
+}
+
+aside#direita{
+    display: block;
+    background: rgb(210,210,210);
+    float: right;
+    width: 440px;
+    margin-right: 20px;
+    margin-top: 20px;
+    padding-inline: 10px;
+}
+aside#direita h1{
+    color: rgb(60,60,60);
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(210,210,210);
+    padding: 5px;
+    
+}
+aside#direita h2{
+    font-size: 20px;
+    color: white;
+    padding: 8px;
+    background: rgb(100,100,100);
+    margin-bottom: 0px;
+}
+aside#direita p {
+    text-indent: 50px;
+}
+
+video.video-index{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+footer{
+    border-top: 1px solid black;
+    clear: both;
+}
+footer p{
+    text-align: center;
+}
